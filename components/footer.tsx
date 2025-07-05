@@ -24,7 +24,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Kontak</h3>
             <ul className="space-y-2">
-              <li className="text-gray-300">WhatsApp: +62 122-408-6200</li>
+              <li className="text-gray-300">WhatsApp: +62 812-2408-6200</li>
               <li className="text-gray-300">Jam Operasional: 24/7</li>
               <li className="text-gray-300">Response: {"<"} 5 menit</li>
             </ul>
@@ -34,7 +34,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Hubungi Kami</h3>
             <button
-              className="flex items-center space-x-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg transition-colors shadow-lg"
+              className="flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-8 py-3 font-semibold shadow-lg rounded-lg"
               onClick={() => window.open("https://wa.me/621224086200", "_blank")}
             >
               <MessageCircle className="w-5 h-5" />
